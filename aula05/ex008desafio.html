@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../js_ico/android-chrome-512x512.png" type="image/x-icon">
+    <title>JavaScript aula 08 desafio</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: rgb(151, 151, 151);
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Países 
+    </h1>
+
+    País: <input type="text" name="pais" id="pais">
+
+    <input type="button" value="Verificar" onclick="verificar()">
+
+    <div id="resultado"></div>
+
+    <script>
+        function verificar() {
+            let paises = document.getElementById('pais')
+            let result = document.getElementById('resultado')
+            result.innerHTML = `<p>Seu País é <strong>${paises.value}</strong></p>`
+            if (paises.value == 'EUA') {
+                result.innerHTML += '<p>Tomo um <strong>tiro</strong> e morreu!</p>'
+            }else {
+                result.innerHTML += '<p>Ainda ta vivo grazadeus!</p>'
+            }
+        }
+    </script>
+</body>
+</html>
