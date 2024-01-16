@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgba(0, 0, 255, 0.178);
+}
+
+h1 {
+    text-align: center;
+    padding: 5%;
+    background-color: burlywood;
+}
+
+main {
+    background-color: rgba(165, 42, 42, 0.445);
+}
+
+#container {
+    background-color: rgba(0, 107, 71, 0.39);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#texto {
+    background-color: rgba(137, 43, 226, 0.521);
+    padding: 10px;
+    text-align: center;
+}
+
+#relogio {
+    background-color: rgba(128, 255, 0, 0.459);
+    padding: 10px;
+}
+
+footer {
+    background-color: aliceblue;
+    text-align: center;
+}
