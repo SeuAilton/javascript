@@ -5,39 +5,70 @@
     padding: 0px;
 }
 
+html {
+    height: 100%;
+}
+
 body {
-    background-color: rgba(0, 0, 255, 0.267);
+    background-image: url('../imagens/fasesDoDia/madrugadaPequeno.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 h1 {
+    background-color: rgba(240, 248, 255, 0.699);
     text-align: center;
     padding: 5%;
-    background-color: burlywood;
-}
-
-main {
-    background-color: rgba(165, 42, 42, 0.445);
+    font-size: 3em;
+    margin: 10px;
+    margin-bottom: 50px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 #container {
-    background-color: rgba(0, 107, 71, 0.39);
+    background-color: rgba(88, 88, 88, 0.822);
     margin: 10px;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 #texto {
-    background-color: rgba(137, 43, 226, 0.521);
     padding: 10px;
     text-align: center;
+    font-size: 2em;
+    color: white;
+}
+
+#relogio-container {
+    padding: 10px;
+    position: relative;
+}
+
+#relogio-container img {
+    width: 100%;
+    height: auto;
 }
 
 #relogio {
-    background-color: rgba(128, 255, 0, 0.459);
-    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#hora {
+    color: rgb(0, 230, 0);
+    font-size: 9em;
 }
 
 footer {
-    background-color: aliceblue;
     text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
 }
