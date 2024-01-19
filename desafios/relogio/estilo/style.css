@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -16,33 +20,38 @@ body {
 }
 
 h1 {
-    background-color: rgba(240, 248, 255, 0.699);
+    background-color: rgba(255, 255, 255, 0.4);
     text-align: center;
     padding: 5%;
-    font-size: 3em;
+    font-size: 2em;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 50px;
-    width: 400px;
+    width: 350px;
     padding: 10px;
     border-radius: 10px;
+    font-family: 'Press Start 2P', system-ui;
+    text-decoration: none;
 }
 
 #bloco {
-    background-color: rgba(88, 88, 88, 0.900);
     margin: auto;
     margin-bottom: 10px;
     padding: 10px;
     border-radius: 10px;
-    width: 400px;
+    width: 380px;
     display: block;
 }
 
 #texto {
+    background-color: rgba(255, 255, 255, 0.4);
     padding: 10px;
     text-align: center;
-    font-size: 2em;
-    color: white;
+    font-size: 1.5em;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+    font-family: 'Press Start 2P', system-ui;
 }
 
 #relogio-bloco {
@@ -65,14 +74,19 @@ h1 {
 
 #hora {
     color: rgb(0, 230, 0);
-    font-size: 8em;
+    font-size: 6.8em;
+    font-family: 'Black Ops One', system-ui;
+    background-color: rgb(75, 75, 75);
+    width: 316px;
+    height: 140px;
+    border-radius: 20px;
 }
 
 footer {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.808);
     border-radius: 10px;
-    width: 400px;
+    width: 300px;
     display: block;
     margin: auto;
     margin-top: 20px;
