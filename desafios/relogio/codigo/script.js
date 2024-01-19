@@ -49,5 +49,8 @@ function carregar() {
             corpo.style.backgroundSize = "cover";
             corpo.style.backgroundPosition = "center center";
     }
+    
+setInterval(function () {
+    carregar();
+}, 6000);
 }
-
