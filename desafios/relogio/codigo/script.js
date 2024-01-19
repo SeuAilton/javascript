@@ -50,7 +50,7 @@ function carregar() {
             corpo.style.backgroundPosition = "center center";
     }
     
-setInterval(function () {
-    carregar();
-}, 6000);
+    setInterval(function () {
+        carregar();
+    }, 6000);
 }
