@@ -52,5 +52,5 @@ function carregar() {
     
     setInterval(function () {
         carregar();
-    }, 6000);
+    }, 1000);
 }
