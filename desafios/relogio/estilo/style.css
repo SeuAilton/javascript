@@ -70,16 +70,18 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    padding-bottom: 5px;
 }
 
 #hora {
     color: rgb(0, 230, 0);
-    font-size: 6.5em;
+    font-size: 6.1em;
     font-family: 'Black Ops One', system-ui;
     background-color: rgb(75, 75, 75);
     width: 316px;
     height: 140px;
     border-radius: 20px;
+    padding-top: 10px;
 }
 
 footer {
