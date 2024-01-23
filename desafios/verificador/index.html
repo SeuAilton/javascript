@@ -3,26 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../verificador/estilo/style.css">
     <title>Verificador de Idade</title>
 </head>
 <body>
     <main>
         <h1>Verificador de Idade</h1>
         <article>
-            <p>
-                <label for="data">Data de nascimento: </label>
-                <input type="date" id="data" name="data" id="data">
-            </p>
-            <p>
-                Sexo: <label for="sexoM">Masculino</label>
-                <input type="radio" id="sexoM" name="sexo" value="sexoM">
-
-                <label for="sexoF">Feminino</label>
-                <input type="radio" id="sexoF" name="sexo" value="sexoF">
-
-                <label for="sexoO">Outro</label>
-                <input type="radio" name="sexo" id="sexoO">
-            </p>
+            <fieldset>
+                <p>
+                    <label for="data">Data de nascimento: </label>
+                    <input type="date" id="data" name="data" id="data">
+                </p>
+            </fieldset>
+            <fieldset>
+                <p>
+                    Sexo: <label for="sexoM">Masculino</label>
+                    <input type="radio" id="sexoM" name="sexo" value="sexoM">
+                    <label for="sexoF">Feminino</label>
+                    <input type="radio" id="sexoF" name="sexo" value="sexoF">
+                </p>
+            </fieldset>
             <p>
                 <input type="submit" id="verificar" value="Verificar">
             </p>
@@ -41,5 +42,7 @@
             </p>
         </footer>
     </main>
+    <script src="../verificador/codigo/script.js">
+    </script>
 </body>
 </html>
