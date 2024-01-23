@@ -11,18 +11,17 @@
         <h1>Verificador de Idade</h1>
         <article>
             <fieldset>
-                <p>
-                    <label for="data">Data de nascimento: </label>
-                    <input type="date" id="data" name="data" id="data">
-                </p>
+
+                <label for="data">Data de nascimento: <input type="date" id="data" name="data" id="data"></label>
+
             </fieldset>
             <fieldset>
-                <p>
-                    Sexo: <label for="sexoM">Masculino</label>
-                    <input type="radio" id="sexoM" name="sexo" value="sexoM">
-                    <label for="sexoF">Feminino</label>
-                    <input type="radio" id="sexoF" name="sexo" value="sexoF">
-                </p>
+                <legend>Sexo</legend>
+
+                <label for="sexoM"><input type="radio" id="sexoM" name="sexo" value="sexoM" checked> Masculino</label>
+                <br>
+                <label for="sexoF"><input type="radio" id="sexoF" name="sexo" value="sexoF"> Feminino</label>
+                
             </fieldset>
             <p>
                 <input type="submit" id="verificar" value="Verificar">
