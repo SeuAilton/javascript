@@ -27,6 +27,7 @@ h1 {
     margin: auto;
     background-color: #2b723a;
     color: whitesmoke;
+    border-radius: 10px 10px 0 0;
 }
 
 h1, article, footer {
@@ -79,6 +80,7 @@ footer {
     text-align: center;
     margin: auto;
     background-color: #2b723a;
+    border-radius: 0 0 10px 10px;
 }
 
 footer a {
