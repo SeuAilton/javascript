@@ -11,6 +11,12 @@ html {
     height: 100vh;
 }
 
+body {
+    background-image: url("../imagens/south_park/South_park.webp");
+    background-size: cover;
+    background-position: center center;
+}
+
 main {
     padding-top: 40px;
 }
