@@ -31,7 +31,7 @@ h1 {
 }
 
 h1, article, footer {
-    width: 400px;
+    width: 320px;
 }
 
 article {
@@ -46,14 +46,12 @@ fieldset {
 }
 
 p {
-    padding: 10px;
+    padding: 10px 0;
 }
 
 #data {
-    width: 50%;
+    width: 40%;
     height: 25px;
-    font-size: 15px;
-    text-align: center;
     background-color: rgb(233, 233, 233);
 }
 
@@ -72,6 +70,10 @@ div {
     background-color: #465f97;
     border-radius: 10px;
     border: 2px solid whitesmoke;
+}
+
+#imagem {
+    margin-left: -5px;
 }
 
 footer {
