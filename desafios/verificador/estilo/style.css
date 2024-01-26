@@ -12,9 +12,9 @@ html {
 }
 
 body {
-    background-image: url("../imagens/south_park/South_park.jpg");
+    background: url("../imagens/south_park/South_park.jpg") no-repeat center fixed;
     background-size: cover;
-    background-position: center center;
+    
 }
 
 main {
