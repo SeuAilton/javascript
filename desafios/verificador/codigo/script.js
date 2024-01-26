@@ -23,7 +23,7 @@ function verificar() {
     var amor = document.getElementsByName("sexo")
     var genero = ''
     var imagemAleatoria = Math.floor(Math.random() * 6)
-    document.getElementById("resultado").innerText = `Sua idade é ${idade} anos`
+    document.getElementById("resultado").innerText = `Sua idade é ${idade} anos!`
 
     if (amor[0].checked){
         genero = 'Masculino'
