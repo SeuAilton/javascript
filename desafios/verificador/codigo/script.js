@@ -47,10 +47,13 @@ function verificar() {
                 document.getElementById("imagem-img").src = `imagens/criancas/feminino/${imagemAleatoria}.png`
         }else if (idade < 18){
                 document.getElementById("imagem-img").src = `imagens/jovens/feminino/${imagemAleatoria}.png`
-            }else if (idade < 50){
+        }else if (idade < 50){
                 document.getElementById("imagem-img").src = `imagens/adultos/feminino/${imagemAleatoria}.png`
         }else {
                 document.getElementById("imagem-img").src = `imagens/velhos/feminino/${imagemAleatoria}.png`
         } 
-    }  
+    }else if (nascimento.value.lengt == null || Number(nascimentofano.value) == null){
+        document.getElementById("imagem-img").src = "imagens/erro/evil-clone-stan.png"
+        document.getElementById("resultado").innerText = "[ERRO] Por favor preencha sua data de nascimento!"
+    }      
 }
