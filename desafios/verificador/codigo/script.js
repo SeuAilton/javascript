@@ -14,6 +14,12 @@ function verificar() {
         idade--;
     }
 
+    if (nascimento.length === 0) {
+        document.getElementById("imagem-img").src = "imagens/erro/evil-clone-stan.png";
+        document.getElementById("resultado").innerText = "[ERRO] Por favor, preencha sua data de nascimento!";
+        return;
+    }
+
     var amor = document.getElementsByName("sexo")
     var genero = ''
     var imagemAleatoria = Math.floor(Math.random() * 6)
@@ -23,7 +29,7 @@ function verificar() {
         genero = 'Masculino'
         if (idade <= 0) {
             document.getElementById("imagem-img").src = "imagens/coco/mr-hankey.png"
-            document.getElementById("resultado").innerText = "Voçê ainda não nasceu!"
+            document.getElementById("resultado").innerText = "Você ainda não nasceu!"
         }else if (idade < 4){
                 document.getElementById("imagem-img").src = `imagens/bebes/masculino/${imagemAleatoria}.png`
         }else if (idade < 12){
@@ -40,7 +46,7 @@ function verificar() {
         genero = 'Feminino'
         if (idade <= 0){
             document.getElementById("imagem-img").src = "imagens/coco/mr-hankey.png"
-            document.getElementById("resultado").innerText = "Voçê ainda não nasceu!"
+            document.getElementById("resultado").innerText = "Você ainda não nasceu!"
         }else if (idade < 4){
                 document.getElementById("imagem-img").src = `imagens/bebes/feminino/${imagemAleatoria}.png`
         }else if (idade < 12){
@@ -52,8 +58,5 @@ function verificar() {
         }else {
                 document.getElementById("imagem-img").src = `imagens/velhos/feminino/${imagemAleatoria}.png`
         } 
-    }else if (nascimento.value.lengt == null || Number(nascimentofano.value) == null){
-        document.getElementById("imagem-img").src = "imagens/erro/evil-clone-stan.png"
-        document.getElementById("resultado").innerText = "[ERRO] Por favor preencha sua data de nascimento!"
-    }      
+    } 
 }
