@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
+header {
+    margin: auto;
+    width: 350px;
+    background-color: purple;
+}
+
+h1, h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+#placaMae {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: aqua;
+}
+
+article {
+    margin: auto;
+    width: 350px;
+    background-color: salmon;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+}
