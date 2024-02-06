@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -11,34 +15,146 @@ html {
     height: 100vh;
 }
 
+body {
+    background-color: #8231AE;
+}
+
 header {
     margin: auto;
     width: 350px;
-    background-color: purple;
 }
 
 h1, h2 {
     text-align: center;
-    padding: 10px;
+}
+
+h1 {
+    font-family: "Bungee Spice", sans-serif;
+    font-size: 2.6em;
 }
 
 #placaMae {
     display: flex;
     justify-content: center;
-    border-radius: 10px;
-    background-color: aqua;
+    padding: 10px;
+    border-image: radial-gradient(#ffbc42, #be2600,#6a040f) 79;
+    border-width: 10px;
+    border-style: solid;
+    background: radial-gradient(#00b4d8, #0077b6, #03045e);
+}
+
+#placaMaePng {
+    height: 120px;
+    width: 100px;
 }
 
 article {
+    position: relative;
     margin: auto;
     width: 350px;
-    background-color: salmon;
+    margin-top: 5px;
+    border-left: 5px solid #be986a;
+    border-right: 5px solid #be986a;
+    border-top: 5px solid #be986a;
+    background-color: #01422C;
+}
+
+h2 {
+    background-color: green;
+    color: white;
+    padding: 5px;
+    font-family: "Protest Revolution", sans-serif;
+}
+
+.input {
+    text-align: center;
+    padding: 10px;
+}
+
+#numero {
+    text-align: center;
+    font-size: 1.5em;
+    height: 60px;
+    width: 100px;
+    color: white;
+    background-color: green;
+    border-color: rgb(0, 80, 0);
+    font-family: "Protest Revolution", sans-serif;
+}
+
+#calcular {
+    height: 30px;
+    width: 130px;
+    font-size: 1em;
+    color: white;
+    background-color: green;
+    border-color: rgb(0, 80, 0);
+}
+
+#digito {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+
+#digitoPng {
+    height: 80px;
+}
+
+#matt {
+    display: flex;
+    justify-content: center;
+    width: 110px;
+    position: absolute;
+    top: 200px;
+    right: 0;
+}
+
+#mattPng {
+    height: 150px;
+}
+
+#jackie {
+    display: flex;
+    justify-content: center;
+    width: 95px;
+    position: absolute;
+    top: 200px;
+    left: 0;
+}
+
+#jackiePng {
+    height: 150px;
+}
+
+#inez {
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    position: absolute;
+    top: 45px;
+    left: 0;
+}
+
+#inezPng {
+    height: 150px;
 }
 
 footer {
     text-align: center;
+    background-color: green;
+    width: 350px;
+    position: relative;
+    margin: auto;
+    border-left: 5px solid #be986a;
+    border-right: 5px solid #be986a;
+    border-bottom: 5px solid #be986a;
 }
 
 footer a {
     text-decoration: none;
+    color: white;
 }
