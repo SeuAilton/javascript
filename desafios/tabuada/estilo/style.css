@@ -82,6 +82,15 @@ h2 {
     font-family: "Protest Revolution", sans-serif;
 }
 
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none; 
+}
+
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+}
+
 #calcular {
     height: 30px;
     width: 130px;
