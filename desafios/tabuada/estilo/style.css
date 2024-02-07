@@ -60,7 +60,7 @@ article {
 }
 
 h2 {
-    background-color: green;
+    background-color: #01623D;
     color: white;
     padding: 5px;
     font-family: "Protest Revolution", sans-serif;
@@ -73,12 +73,12 @@ h2 {
 
 #numero {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 3em;
     height: 60px;
     width: 100px;
     color: white;
-    background-color: green;
-    border-color: rgb(0, 80, 0);
+    background-color: #01623D;
+    border: 2px solid whitesmoke;
     font-family: "Protest Revolution", sans-serif;
 }
 
@@ -93,11 +93,28 @@ input[type=number] {
 
 #calcular {
     height: 30px;
-    width: 130px;
-    font-size: 1em;
+    width: 142px;
+    font-size: 1.3em;
+    font-family: "Protest Revolution", sans-serif;
     color: white;
-    background-color: green;
-    border-color: rgb(0, 80, 0);
+    background-color: #01623D;
+    border-color: whitesmoke;
+}
+
+#resultado {
+    overflow: hidden;
+    color: white;
+    border: 2px solid whitesmoke;
+    background-color: #01623D;
+    font-family: "Protest Revolution", sans-serif;
+    width: 142px;
+    text-align: center;
+}
+
+#option {
+    color: white;
+    background-color: #01623D;
+    font-family: "Protest Revolution", sans-serif;
 }
 
 #digito {
@@ -154,7 +171,7 @@ input[type=number] {
 
 footer {
     text-align: center;
-    background-color: green;
+    background-color: #01623D;
     width: 350px;
     position: relative;
     margin: auto;
@@ -166,4 +183,5 @@ footer {
 footer a {
     text-decoration: none;
     color: white;
+    font-family: "Protest Revolution", sans-serif;
 }

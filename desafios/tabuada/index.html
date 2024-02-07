@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/media.css">
     <title>Tabuada</title>
 </head>
 <body>
@@ -28,11 +29,13 @@
             </p>
 
             <p class="input">
-                <input type="submit" value="Calcular" id="calcular">
+                <input type="submit" value="Calcular" id="calcular" onclick="calcular()">
             </p>
 
             <p class="input">
-                <textarea name="resultado" id="resultado" cols="10" rows="8"></textarea>
+                <select name="resultado" id="resultado" size="10">
+                    <option id="option">Digite um número acima</option>
+                </select>
             </p>
 
             <div id="digito">
