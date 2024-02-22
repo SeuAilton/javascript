@@ -17,11 +17,12 @@ body {
 
 header {
     margin: 5px auto;
-    padding: 23px;
+    padding: 15px;
     width: 300px;
     text-align: center;
     border-radius: 50%;
-    background-color: aqua;
+    border: 3px solid rgb(86, 209, 86);
+    background-color: white;
 }
 
 article {
@@ -29,6 +30,7 @@ article {
     margin: auto;
     width: 350px;
     height: 500px;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5);
     background: url('../imagem/folha/folha.png') no-repeat center;
     background-size: cover;
 }
@@ -40,10 +42,6 @@ div {
     font-size: 1.5em;
 }
 
-p {
-    text-align: justify;
-}
-
 input[type=number]::-webkit-inner-spin-button { 
     -webkit-appearance: none; 
 }
@@ -53,31 +51,40 @@ input[type=number] {
    appearance: textfield;
 }
 
+.numeros {
+    left: 90px;
+    width: 60px;
+    font-size: 0.9em;
+    text-align: center;
+    display: flex;
+    position: absolute;
+}
+
 #divInicio {
-    top: 90px;
-    left: 50px;
+    top: 75px;
+    left: 80px;
 }
 
 #inicio {
-    margin-left: 15px;
+    bottom: 4.5px;
 }
 
 #divFim {
     top: 120px;
-    left: 50px;
+    left: 80px;
 }
 
 #fim {
-    margin-left: 33px;
+    bottom: 5px;
 }
 
 #divPasso {
-    top: 150px;
-    left: 50px;
+    top: 165px;
+    left: 80px;
 }
 
 #passo {
-    margin-left: 6px;
+    bottom: 5.5px;
 }
 
 #divContar {
@@ -87,11 +94,72 @@ input[type=number] {
 
 #contar {
     width: 200px;
-    height: 30px;
-    font-size: 1em;
+    font-size: 0.9em;
 }
 
 #resultado {
-    top: 252px;
-    left: 125px;
+    top: 246px;
+    left: 100px;
+    padding: 5px 25px 172px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+#lola {
+    top: 300px;
+    right: 265px;
+    padding: 10px;
+    transform: rotate(15deg);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: aliceblue;
+}
+
+#lolapng {
+    height: 130px;
+}
+
+#charlie {
+    top: 275px;
+    left: 265px;
+    padding: 10px;
+    transform: rotate(-6deg);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: rgb(255, 255, 150);
+}
+
+#charliepng {
+    height: 180px;
+}
+
+#lotta {
+    top: 20px;
+    right: 280px;
+    padding: 10px;
+    transform: rotate(6deg);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: pink;
+}
+
+#lottapng {
+    height: 135px;
+}
+
+#marv {
+    left: 240px;
+    padding: 5px;
+    transform: rotate(-6deg);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: rgb(164, 230, 164);
+}
+
+#marvpng {
+    height: 130px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
 }
